@@ -13,10 +13,12 @@ def collect_multiples(limit)
         array.push(times5)
       end
      i+=1
-     
-
-     
    end
    #array.reduce(0){ |i, t| i + t }
    array.sort()
+end
+
+def sum_multiples(limit)
+  array = collect_multiples(limit)
+  array.reduce(0){|i, t| i + t }
 end
