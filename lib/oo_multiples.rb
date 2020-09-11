@@ -17,6 +17,7 @@ class Multiples
       if times5 < self.limit 
         array.push(times5)
       end
+      i+=1
     end
     array.sort()
   end
