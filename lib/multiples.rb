@@ -17,5 +17,5 @@ def collect_multiples(limit)
      
    end
    #array.reduce(0){ |i, t| i + t }
-   array
+   array.sort()
 end
