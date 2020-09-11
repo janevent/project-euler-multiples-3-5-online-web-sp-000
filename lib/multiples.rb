@@ -8,7 +8,9 @@ def collect_multiples(limit)
       if times3 < limit
         array.push(times3)
       end
-     array.push(5*i)
+      if times5 < limit
+        array.push(5*i)
+      end
      i+=1
      
 
