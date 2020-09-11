@@ -24,7 +24,7 @@ class Multiples
   
   def sum_multiples
     array = self.collect_multiples 
-    array.reduce(0){|i, t| i+ t}
+    array.reduce(0){|item, total| item+ total}
   end
   
 end
