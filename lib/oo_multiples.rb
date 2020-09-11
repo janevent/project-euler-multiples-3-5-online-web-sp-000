@@ -11,8 +11,14 @@ class Multiples
     until i == self.limit
       times3 = i*3 
       times5 = i*5 
-      
+      if times3 < self.limit && !array.include?(times3)
+        array.push(times3)
+      end
+      if times5 < self.limit 
+        array.push(times5)
+      end
     end
+    array.sort()
   end
   
   def sum_multiples
