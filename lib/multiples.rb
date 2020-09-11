@@ -1,7 +1,7 @@
 # Enter your procedural solution here!
 def collect_multiples(limit)
    array = []
-   i = 0
+   i = 1
    until i == limit do
       times3 = 3*i 
       times5 = 5*i
