@@ -23,6 +23,8 @@ class Multiples
   end
   
   def sum_multiples
+    array = self.collect_multiples 
+    array.reduce(0){|i, t| i+ t}
   end
   
 end
