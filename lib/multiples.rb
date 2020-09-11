@@ -5,7 +5,7 @@ def collect_multiples(limit)
    until i == limit do
       times3 = 3*i 
       times5 = 5*i
-      if times3 < limit 7 && !array.includes?(times3)
+      if times3 < limit && !array.includes?(times3)
         array.push(times3)
         puts times3
       end
